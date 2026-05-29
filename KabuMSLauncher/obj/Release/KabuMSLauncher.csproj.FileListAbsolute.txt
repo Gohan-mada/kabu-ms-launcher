@@ -1,0 +1,14 @@
+c:\Users\gohan\OneDrive\ドキュメント\ボストークAI社員\UI_MS\KabuMSLauncher\bin\Release\KabuMSLauncher.exe
+c:\Users\gohan\OneDrive\ドキュメント\ボストークAI社員\UI_MS\KabuMSLauncher\bin\Release\KabuMSLauncher.pdb
+c:\Users\gohan\OneDrive\ドキュメント\ボストークAI社員\UI_MS\KabuMSLauncher\obj\Release\KabuMSLauncher.csproj.AssemblyReference.cache
+c:\Users\gohan\OneDrive\ドキュメント\ボストークAI社員\UI_MS\KabuMSLauncher\obj\Release\MainWindow.baml
+c:\Users\gohan\OneDrive\ドキュメント\ボストークAI社員\UI_MS\KabuMSLauncher\obj\Release\App.baml
+c:\Users\gohan\OneDrive\ドキュメント\ボストークAI社員\UI_MS\KabuMSLauncher\obj\Release\MainWindow.g.cs
+c:\Users\gohan\OneDrive\ドキュメント\ボストークAI社員\UI_MS\KabuMSLauncher\obj\Release\App.g.cs
+c:\Users\gohan\OneDrive\ドキュメント\ボストークAI社員\UI_MS\KabuMSLauncher\obj\Release\KabuMSLauncher_MarkupCompile.cache
+c:\Users\gohan\OneDrive\ドキュメント\ボストークAI社員\UI_MS\KabuMSLauncher\obj\Release\KabuMSLauncher.g.resources
+c:\Users\gohan\OneDrive\ドキュメント\ボストークAI社員\UI_MS\KabuMSLauncher\obj\Release\KabuMSLauncher.csproj.CoreCompileInputs.cache
+c:\Users\gohan\OneDrive\ドキュメント\ボストークAI社員\UI_MS\KabuMSLauncher\obj\Release\KabuMSLauncher.exe
+c:\Users\gohan\OneDrive\ドキュメント\ボストークAI社員\UI_MS\KabuMSLauncher\obj\Release\KabuMSLauncher.pdb
+c:\Users\gohan\OneDrive\ドキュメント\ボストークAI社員\UI_MS\KabuMSLauncher\obj\Release\InfoDialog.baml
+c:\Users\gohan\OneDrive\ドキュメント\ボストークAI社員\UI_MS\KabuMSLauncher\obj\Release\InfoDialog.g.cs
