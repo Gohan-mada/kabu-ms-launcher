@@ -3,7 +3,7 @@
 楽天証券 **MarketspeedⅡ** のログイン作業をワンクリックで自動化する、完全無料の Windows ランチャーです。
 毎朝の起動・ID/パスワード入力・ログインボタン押下までを、ボタン1つで完了させます。
 
-[![Latest Release](https://img.shields.io/github/v/release/YOUR-USERNAME/REPO-NAME?label=最新リリース)](https://github.com/YOUR-USERNAME/REPO-NAME/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/Gohan-mada/kabu-ms-launcher?label=最新リリース)](https://github.com/Gohan-mada/kabu-ms-launcher/releases/latest)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6)](https://www.microsoft.com/windows)
 
@@ -11,11 +11,11 @@
 
 ## ⬇ ダウンロード
 
-➡ **[公式LP（最新版＋使い方ガイド）](https://cabu.info/ms-launcher/)**
+➡ **[公式LP（最新版＋使い方ガイド）](https://cabu-labo.co.jp/login_ms.html)**
 
 または直接ダウンロード：
 
-➡ **[最新版インストーラ](https://github.com/YOUR-USERNAME/REPO-NAME/releases/latest/download/KabuMSLauncher_Setup.exe)**
+➡ **[最新版インストーラ](https://github.com/Gohan-mada/kabu-ms-launcher/releases/latest/download/KabuMSLauncher_Setup.exe)**
 
 ---
 
@@ -50,7 +50,7 @@ YouTube: [かぶ自動LOGIN 1分でわかる使い方](https://youtu.be/PLACEHOL
 
 ## 🚀 使い方
 
-詳細は [公式ガイド](https://cabu.info/ms-launcher/guide.html) をご覧ください。
+詳細は [公式ガイド](https://cabu-labo.co.jp/login_ms.html) をご覧ください。
 
 1. インストーラをダウンロード → 実行（管理者権限不要）
 2. アプリを起動 → 楽天証券のID/パスワードを入力 → 「保存する」にチェック
@@ -76,10 +76,10 @@ msbuild .\KabuMSLauncher\KabuMSLauncher.csproj /p:Configuration=Release
 
 ## 🤝 提供元・運営
 
-[**かぶ自動化LAB**](https://cabu.info/) — 株式会社ボストーク
+[**かぶ自動化LAB**](https://cabu-labo.co.jp/) — 株式会社ボストーク
 個人投資家向け AI 活用学習メディア
 
-- 🌐 公式サイト：[cabu.info](https://cabu.info/)
+- 🌐 公式サイト：[cabu.info](https://cabu-labo.co.jp/)
 - 📧 お問い合わせ：info@cabu.info
 
 ## 📝 免責事項
