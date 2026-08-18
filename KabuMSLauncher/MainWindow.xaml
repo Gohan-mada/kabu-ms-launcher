@@ -53,9 +53,9 @@
                         💡 投資にAIをもっと活用したい方へ
                     </TextBlock>
                     <TextBlock FontSize="11" Foreground="#7C2D12" TextWrapping="Wrap" Margin="0,0,0,10">
-                        かぶ自動化LABでは、銘柄スクリーニング・デイトレ補助AI・自動売買botを「使える→わかる→自分で作れる」の3段階で学べる講座を提供しています。
+                        Tomoru（灯）では、日本株の情報をAIで整理して毎日公開しています。値動き、決算の予定、世界のニュースの偏りを、自分の目で確かめられます。
                     </TextBlock>
-                    <Button x:Name="LabCtaButton" Content="かぶ自動化LAB を見る →" Click="LabCtaButton_Click" HorizontalAlignment="Left"
+                    <Button x:Name="LabCtaButton" Content="Tomoru（灯）を見る →" Click="LabCtaButton_Click" HorizontalAlignment="Left"
                             Background="Transparent" Foreground="#9A3412" BorderBrush="#9A3412" BorderThickness="1" Padding="12,6" FontSize="12" Cursor="Hand"/>
                 </StackPanel>
             </Border>
@@ -66,7 +66,7 @@
             <Grid>
                 <TextBlock VerticalAlignment="Center" Foreground="{StaticResource TextMuted}" FontSize="11">
                     <Run Text="Powered by "/>
-                    <Run Text="かぶ自動化LAB" FontWeight="SemiBold"/>
+                    <Run Text="Tomoru（灯）" FontWeight="SemiBold"/>
                 </TextBlock>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                     <Button x:Name="HelpButton" Content="使い方" Click="HelpButton_Click" Background="Transparent" BorderThickness="0" Foreground="#0F2A4A" Cursor="Hand" Padding="6,2" FontSize="11"/>

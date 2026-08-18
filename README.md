@@ -76,10 +76,10 @@ msbuild .\KabuMSLauncher\KabuMSLauncher.csproj /p:Configuration=Release
 
 ## 🤝 提供元・運営
 
-[**かぶ自動化LAB**](https://cabu-labo.co.jp/) — 株式会社ボストーク
+[**Tomoru（灯）**](https://tomoru.online/) — 株式会社ボストーク
 個人投資家向け AI 活用学習メディア
 
-- 🌐 公式サイト：[cabu.info](https://cabu-labo.co.jp/)
+- 🌐 公式サイト：[tomoru.online](https://tomoru.online/)
 - 📧 お問い合わせ：info@cabu.info
 
 ## 📝 免責事項

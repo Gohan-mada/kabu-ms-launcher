@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Diagnostics;
 using System.Security;
 using System.Threading.Tasks;
@@ -158,8 +158,8 @@ namespace KabuMSLauncher
                     "・MarketspeedⅡ のアップデート直後はUI構造が変わり、自動入力が失敗する場合があります\n" +
                     "・その場合は手動でログインしてください\n" +
                     "・継続して失敗する場合はサポートサイトをご確認ください",
-                LinkText = "詳しい使い方・サポート（cabu.info）",
-                LinkUrl = "https://cabu.info/"
+                LinkText = "詳しい使い方・サポート（tomoru.online）",
+                LinkUrl = "https://tomoru.online/"
             };
             dlg.ShowDialog();
         }
@@ -174,21 +174,21 @@ namespace KabuMSLauncher
                 BodyText =
                     "MarketspeedⅡ 自動起動アプリ\n" +
                     "Version 1.0.0\n" +
-                    "提供：株式会社ボストーク / かぶ自動化LAB\n\n" +
+                    "提供：株式会社ボストーク（Tomoru〈灯〉）\n\n" +
                     "■ 免責事項\n" +
                     "本ツールは MarketspeedⅡ のログインを補助するローカルツールであり、" +
                     "楽天証券株式会社とは無関係の独立した第三者開発ツールです。\n" +
                     "本ツールの利用により生じたいかなる損害についても開発元は責任を負いません。\n" +
                     "ご利用は自己責任にてお願いします。",
-                LinkText = "かぶ自動化LAB 公式サイト（cabu.info）",
-                LinkUrl = "https://cabu.info/"
+                LinkText = "Tomoru（灯）公式サイト（tomoru.online）",
+                LinkUrl = "https://tomoru.online/"
             };
             dlg.ShowDialog();
         }
 
         private void LabCtaButton_Click(object sender, RoutedEventArgs e)
         {
-            OpenUrl("https://cabu.info/");
+            OpenUrl("https://tomoru.online/");
         }
 
         private static void OpenUrl(string url)

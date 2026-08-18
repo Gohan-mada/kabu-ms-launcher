@@ -1,0 +1,36 @@
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Dd]istribute/
+[Pp]ackages/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+*.pidb
+*.userprefs
+
+# Inno Setup output (managed via Releases)
+dist/*.exe
+
+# Local IDE
+.idea/
+.vscode/
+
+# Tools / temp
+node_modules/
+*.log
+*.tmp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# But keep the source files
+!KabuMSLauncher/Assets/app.ico
+!KabuMSLauncher/Assets/logo.png
