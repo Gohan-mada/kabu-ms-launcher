@@ -2,7 +2,7 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="かぶ自動LOGIN｜MarketspeedⅡ 自動起動アプリ"
-        Height="680" Width="440"
+        Height="770" Width="440"
         WindowStartupLocation="CenterScreen"
         Background="{StaticResource BgSoft}"
         ResizeMode="CanMinimize"
@@ -41,7 +41,20 @@
             <CheckBox x:Name="ShowPasswordCheck" Content="パスワードを表示" Margin="0,0,0,16" Checked="ShowPasswordCheck_Toggled" Unchecked="ShowPasswordCheck_Toggled"/>
 
             <CheckBox x:Name="SaveCredentialsCheck" Content="ID・パスワードを保存する（このPCでのみ使用、DPAPI暗号化）" IsChecked="True" Margin="0,0,0,8" Foreground="{StaticResource TextDark}"/>
-            <CheckBox x:Name="AutoStartCheck" Content="Windows起動時にこのランチャーを自動起動" Margin="0,0,0,20" Foreground="{StaticResource TextDark}"/>
+            <CheckBox x:Name="AutoStartCheck" Content="Windows起動時にこのランチャーを自動起動" Margin="0,0,0,8" Foreground="{StaticResource TextDark}"/>
+            <CheckBox x:Name="AutoReconnectCheck" Content="通信が切断されたら自動で再接続する" Margin="0,0,0,2" Foreground="{StaticResource TextDark}" Checked="ReconnectSetting_Changed" Unchecked="ReconnectSetting_Changed"/>
+            <TextBlock Margin="22,0,0,6" FontSize="11" Foreground="{StaticResource TextMuted}" TextWrapping="Wrap"
+                       Text="切断の画面のOKと、Excelの「未接続」を押します。"/>
+            <CheckBox x:Name="AutoEnableOrderCheck" Margin="22,0,0,4" Foreground="{StaticResource TextDark}" Checked="ReconnectSetting_Changed" Unchecked="ReconnectSetting_Changed">
+                <TextBlock TextWrapping="Wrap">再接続のあと「発注不可」も自動で押す</TextBlock>
+            </CheckBox>
+            <TextBlock Margin="22,0,0,8" FontSize="11" Foreground="{StaticResource TextMuted}" TextWrapping="Wrap"
+                       Text="切断中に出たサインで、発注を戻した直後に注文が出ることがあります。"/>
+            <StackPanel Orientation="Horizontal" Margin="22,0,0,20">
+                <TextBlock x:Name="MailStateText" FontSize="12" Foreground="{StaticResource TextDark}" VerticalAlignment="Center" Text="メール通知：未設定"/>
+                <Button x:Name="MailSettingsButton" Content="設定する" Click="MailSettingsButton_Click" Margin="10,0,0,0" Padding="10,2" FontSize="12"
+                        Background="Transparent" Foreground="{StaticResource BrandPrimary}" BorderBrush="{StaticResource BrandPrimary}" BorderThickness="1" Cursor="Hand"/>
+            </StackPanel>
 
             <Button x:Name="LaunchButton" Content="⚡ MarketspeedⅡ を起動する" Style="{StaticResource PrimaryButton}" Click="LaunchButton_Click" Height="48"/>
 
@@ -53,9 +66,9 @@
                         💡 投資にAIをもっと活用したい方へ
                     </TextBlock>
                     <TextBlock FontSize="11" Foreground="#7C2D12" TextWrapping="Wrap" Margin="0,0,0,10">
-                        Tomoru（灯）では、日本株の情報をAIで整理して毎日公開しています。値動き、決算の予定、世界のニュースの偏りを、自分の目で確かめられます。
+                        かぶ自動化LABでは、銘柄スクリーニング・デイトレ補助AI・自動売買botを「使える→わかる→自分で作れる」の3段階で学べる講座を提供しています。
                     </TextBlock>
-                    <Button x:Name="LabCtaButton" Content="Tomoru（灯）を見る →" Click="LabCtaButton_Click" HorizontalAlignment="Left"
+                    <Button x:Name="LabCtaButton" Content="かぶ自動化LAB を見る →" Click="LabCtaButton_Click" HorizontalAlignment="Left"
                             Background="Transparent" Foreground="#9A3412" BorderBrush="#9A3412" BorderThickness="1" Padding="12,6" FontSize="12" Cursor="Hand"/>
                 </StackPanel>
             </Border>
@@ -66,7 +79,7 @@
             <Grid>
                 <TextBlock VerticalAlignment="Center" Foreground="{StaticResource TextMuted}" FontSize="11">
                     <Run Text="Powered by "/>
-                    <Run Text="Tomoru（灯）" FontWeight="SemiBold"/>
+                    <Run Text="かぶ自動化LAB" FontWeight="SemiBold"/>
                 </TextBlock>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                     <Button x:Name="HelpButton" Content="使い方" Click="HelpButton_Click" Background="Transparent" BorderThickness="0" Foreground="#0F2A4A" Cursor="Hand" Padding="6,2" FontSize="11"/>

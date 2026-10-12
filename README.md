@@ -11,11 +11,9 @@
 
 ## ⬇ ダウンロード
 
-➡ **[公式ページ（最新版＋使い方ガイド）](https://cabu-labo.co.jp/kabu_auto_login/)**
+➡ **[公式ページ（無料ダウンロード＋使い方ガイド）](https://cabu-labo.co.jp/kabu_auto_login/)**
 
-または直接ダウンロード：
-
-➡ **[最新版インストーラ（zip）](https://github.com/Gohan-mada/kabu-ms-launcher/releases/latest/download/KabuMSLauncher_Setup.zip)**
+公式ページの登録フォームからお申し込みいただくと、ダウンロードの案内をメールでお届けします。
 
 ---
 

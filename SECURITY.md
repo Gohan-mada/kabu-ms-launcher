@@ -76,3 +76,5 @@
 - [`KabuMSLauncher/Services/CredentialStore.cs`](KabuMSLauncher/Services/CredentialStore.cs) — DPAPI 暗号化の実装
 - [`KabuMSLauncher/Services/AppSettings.cs`](KabuMSLauncher/Services/AppSettings.cs) — 設定ファイル読み書き
 - [`KabuMSLauncher/Services/MarketSpeedLauncher.cs`](KabuMSLauncher/Services/MarketSpeedLauncher.cs) — 起動・自動入力ロジック
+- [`KabuMSLauncher/Services/ReconnectWatcher.cs`](KabuMSLauncher/Services/ReconnectWatcher.cs) — 通信切断の見張り・接続確認・Excel 楽天RSSのボタン（1.1.0 から）
+- [`KabuMSLauncher/Services/MailNotifier.cs`](KabuMSLauncher/Services/MailNotifier.cs) — メール通知で送る内容と送り先（1.1.0 から）

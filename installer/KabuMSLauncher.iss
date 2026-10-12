@@ -3,9 +3,9 @@
 
 #define MyAppName       "かぶ自動LOGIN"
 #define MyAppShortName  "KabuMSLauncher"
-#define MyAppVersion    "1.0.1"
-#define MyAppPublisher  "株式会社ボストーク"
-#define MyAppURL        "https://tomoru.online/"
+#define MyAppVersion    "1.1.0"
+#define MyAppPublisher  "株式会社ボストーク / かぶ自動化LAB"
+#define MyAppURL        "https://cabu-labo.co.jp/"
 #define MyAppExeName    "KabuMSLauncher.exe"
 #define MyAppCopyright  "Copyright (C) 2026 Bostok Inc."
 

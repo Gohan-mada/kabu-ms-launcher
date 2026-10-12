@@ -10,6 +10,14 @@ namespace KabuMSLauncher.Services
         public string LoginId { get; set; } = string.Empty;
         public string EncryptedPassword { get; set; } = string.Empty;
         public string MarketSpeedExePath { get; set; } = string.Empty;
+        // v1.1.0: 通信切断の画面でOKを押し、Excelの「未接続」も押す
+        public bool AutoReconnect { get; set; } = true;
+        // v1.1.0: 再接続のあと「発注不可」も押すか（注文が出る状態に戻るので既定は押さない）
+        public bool AutoEnableOrder { get; set; } = false;
+        // v1.1.0: メール通知（確認コードで登録したアドレスと、受け口が発行したトークン〈DPAPIで暗号化〉）
+        public string NotifyEmail { get; set; } = string.Empty;
+        public string EncryptedNotifyToken { get; set; } = string.Empty;
+        public bool NotifyOnSuccess { get; set; } = true;
 
         private static string SettingsDir =>
             Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "KabuMSLauncher");
