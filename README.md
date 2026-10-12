@@ -11,11 +11,11 @@
 
 ## ⬇ ダウンロード
 
-➡ **[公式LP（最新版＋使い方ガイド）](https://cabu-labo.co.jp/login_ms.html)**
+➡ **[公式ページ（最新版＋使い方ガイド）](https://cabu-labo.co.jp/kabu_auto_login/)**
 
 または直接ダウンロード：
 
-➡ **[最新版インストーラ](https://github.com/Gohan-mada/kabu-ms-launcher/releases/latest/download/KabuMSLauncher_Setup.exe)**
+➡ **[最新版インストーラ（zip）](https://github.com/Gohan-mada/kabu-ms-launcher/releases/latest/download/KabuMSLauncher_Setup.zip)**
 
 ---
 
@@ -24,6 +24,8 @@
 - ⚡ **ワンクリック自動ログイン** — MarketspeedⅡ の起動から認証情報入力、ログインボタン押下までを自動実行
 - 🔒 **Windows DPAPI 暗号化** — パスワードは Microsoft 標準の Data Protection API で暗号化保存（Chrome / Edge と同じ仕組み）
 - 🚀 **Windows 起動時の自動起動オプション** — PC 電源 ON から即トレード画面へ
+- 🔁 **通信切断からの自動再接続（1.1.0 から）** — 「サーバとの通信が切断されました」の画面で、インターネットの復旧を待って OK を押し、Excel の楽天RSS「未接続」も押します（「発注不可」は設定で選んだ場合だけ）
+- 📧 **メール通知（1.1.0 から・任意）** — 再接続できたとき・途中で止まったときにメールでお知らせ
 - 📦 **軽量・追加インストール不要** — 本体 約30KB、インストーラ 約2MB
 - 💰 **完全無料・広告なし**
 
@@ -31,8 +33,9 @@
 
 - パスワードは **Windows DPAPI** で暗号化（[詳細](https://learn.microsoft.com/dotnet/standard/security/how-to-use-data-protection)）
 - 暗号化キーは Windows アカウントに紐付き、**同一PC・同一ユーザーアカウントでのみ復号可能**
-- **外部サーバーへの通信は一切ありません**（完全ローカル動作）
-- API アクセス・自動売買等の機能は実装していません
+- **ID・パスワードを外部へ送ることはありません**
+- 1.1.0 から、外部と通信するのは次の2つの場合だけです：通信が切れたときの接続確認（Google・Cloudflare・楽天証券のサーバーへの応答確認。データは送りません）と、メール通知を設定した場合の通知
+- API アクセス・注文の機能は実装していません
 
 詳細は [SECURITY.md](SECURITY.md) を参照。
 
@@ -50,7 +53,7 @@ YouTube: [かぶ自動LOGIN 1分でわかる使い方](https://youtu.be/PLACEHOL
 
 ## 🚀 使い方
 
-詳細は [公式ガイド](https://cabu-labo.co.jp/login_ms.html) をご覧ください。
+詳細は [公式ページ](https://cabu-labo.co.jp/kabu_auto_login/) をご覧ください。
 
 1. インストーラをダウンロード → 実行（管理者権限不要）
 2. アプリを起動 → 楽天証券のID/パスワードを入力 → 「保存する」にチェック
@@ -84,7 +87,7 @@ msbuild .\KabuMSLauncher\KabuMSLauncher.csproj /p:Configuration=Release
 
 ## 📝 免責事項
 
-本ツールは MarketspeedⅡ のログインを補助するローカルツールであり、**楽天証券株式会社とは無関係の独立した第三者開発ツール**です。
+本ツールは MarketspeedⅡ のログインと、通信が切れたときの再接続を補助するツールであり、**楽天証券株式会社とは無関係の独立した第三者開発ツール**です。
 本ツールの利用により生じたいかなる損害についても開発元は責任を負いません。
 本ツールは投資助言・銘柄推奨を一切行いません。投資判断はご自身の責任で行ってください。
 
