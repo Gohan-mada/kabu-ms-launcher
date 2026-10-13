@@ -85,10 +85,22 @@ msbuild .\KabuMSLauncher\KabuMSLauncher.csproj /p:Configuration=Release
 
 ## 📝 免責事項
 
-本ツールは MarketspeedⅡ のログインと、通信が切れたときの再接続を補助するツールであり、**楽天証券株式会社とは無関係の独立した第三者開発ツール**です。
+本ツールは MarketspeedⅡ のログインと、通信が切れたときの再接続を補助するツールであり、**楽天証券株式会社とは関係のない非公式アプリ**です（楽天証券株式会社が提供・承認するものではありません）。
+「楽天証券」「マーケットスピード」「MarketspeedⅡ」は、楽天グループ株式会社または楽天証券株式会社の商標または登録商標です。
 本ツールの利用により生じたいかなる損害についても開発元は責任を負いません。
 本ツールは投資助言・銘柄推奨を一切行いません。投資判断はご自身の責任で行ってください。
 
+## ⚠️ 正式な配布元
+
+かぶ自動LOGIN の正式な配布元は、次の2か所だけです。
+
+- 公式ページ：https://cabu-labo.co.jp/kabu_auto_login/
+- このリポジトリの [Releases](https://github.com/Gohan-mada/kabu-ms-launcher/releases)
+
+ほかの場所で配られているものは、名前や見た目が同じでも当社のものではありません。ログインID・パスワードを盗む偽物の可能性があるため、インストールしないでください。
+
+利用規約：https://cabu-labo.co.jp/kabu_auto_login/terms/
+
 ## 📄 ライセンス
 
-[MIT License](LICENSE)
+ソースコードは [MIT License](LICENSE) です。ただし、MIT License は「かぶ自動LOGIN」の名前や株式会社ボストークの名前を使う権利を与えるものではありません。改変したものを配る場合は、別の名前にしてください。
